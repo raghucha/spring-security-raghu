@@ -28,7 +28,7 @@ public class LoggingFilter implements Filter {
         long startTime = System.currentTimeMillis();
         chain.doFilter(request, response);
         long endTime = System.currentTimeMillis();
-        log.info("process time for URI" + val+ "in milli seconds"+(endTime - startTime));
+        log.info("process time for URI" + val + "in milli seconds" + (endTime - startTime));
 
     }
 

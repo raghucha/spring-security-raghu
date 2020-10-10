@@ -15,7 +15,7 @@ import java.security.Principal;
 public class HelloController {
 
     @GetMapping("/")
-    public String hello(Principal principal){
-    return "<h1>hello raghu</h1>"+ principal.getName();
+    public String hello(Principal principal) {
+        return "<h1>hello raghu</h1>" + principal.getName();
     }
 }
